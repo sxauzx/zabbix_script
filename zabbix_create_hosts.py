@@ -3,10 +3,10 @@ import urllib2
 from urllib2 import URLError
 import xlrd
 
-zabbix_url = "http://122.114.156.12/api_jsonrpc.php"
+zabbix_url = "http://*.*.*.*/api_jsonrpc.php"
 zabbix_header= {'Content-Type': 'application/json'}
-zabbix_user = 'Admin'
-zabbix_pass = 'Rytx@016'
+zabbix_user = '*******'
+zabbix_pass = '*******'
 
 class ZabbixTools():
     def __init__(self):
